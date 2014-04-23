@@ -1,17 +1,20 @@
 /* My Styles */
 
+
+
 html body {
 	background: url('../img/ricepaper.png');
 }
 
-header div h1 {
-	font-family: 'Lobster', 'cursive';
-}
+
 
 div h2, div p, dd div, .row {
 	font-family: 'PT Sans', 'sans-serif';
 }
 
+ul li h1 a {
+	font-family: 'Lobster', 'cursive';
+}
 
 div.alert-box.warning {
 	background-color: #0CB0F5;
