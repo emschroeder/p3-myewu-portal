@@ -1,5 +1,9 @@
 /* My Styles */
 
+html body {
+	background: url('../img/ricepaper.png');
+}
+
 header div h1 {
 	font-family: 'Lobster', 'cursive';
 }
@@ -28,6 +32,10 @@ div.alert-box.warning {
 	background-color: #0CB0F5;
 }
 
+#panel1, #panel2, #panel3 {
+	background: none;
+}
+
 td a {
 	color: #0982B5;
 }
@@ -38,6 +46,7 @@ td a:hover {
 
 table.tborder {
 	border: solid 1px #0982B5;
+	background: none;
 }
 
 table thead tr, table tr:nth-of-type(even) td {
