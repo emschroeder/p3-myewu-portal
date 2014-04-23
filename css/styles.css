@@ -1,1 +1,49 @@
 /* My Styles */
+
+header div h1 {
+	font-family: 'Lobster', 'cursive';
+}
+
+div h2, div p, dd div, .row {
+	font-family: 'PT Sans', 'sans-serif';
+}
+
+
+div.alert-box.warning {
+	background-color: #0CB0F5;
+	border-color: #0CB0F5;
+}
+
+.content {
+	font-family: 'PT Sans', 'sans-serif';
+}
+
+#time, #time2, #time3 {
+	color: white;
+		font-family: 'PT Sans', 'sans-serif';
+		background-color: rgba(9, 130, 181, 0.55);
+}
+
+#time:hover, #time2:hover, #time3:hover {
+	background-color: #0CB0F5;
+}
+
+td a {
+	color: #0982B5;
+}
+
+td a:hover {
+	color: #0CB0F5;
+}
+
+table.tborder {
+	border: solid 1px #0982B5;
+}
+
+table thead tr, table tr:nth-of-type(even) td {
+	background: rgba(9, 130, 181, 0.55);
+}
+
+
+
+
